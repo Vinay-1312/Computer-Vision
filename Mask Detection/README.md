@@ -47,24 +47,24 @@ This command will open a window displaying your webcam feed with real-time mask 
 ### Project Structure
    The project directory is organised as follows:
    
-      mask_detection.py: The main script for real-time mask detection.
-      requirements.txt: A list of required Python packages.
-      haarcascade_frontalface_default.xml: The Haar Cascade classifier XML file for face detection (included or downloadable).
-      models/: Directory for saving or loading CNN models.
-      data/: Directory for your training dataset (if you wish to train your own model).
-      test/: Directory for images used for testing mask detection.
+   -   mask_detection.py: The main script for real-time mask detection.
+   -   requirements.txt: A list of required Python packages.
+   -   haarcascade_frontalface_default.xml: The Haar Cascade classifier XML file for face detection (included or downloadable).
+   -   models/: Directory for saving or loading CNN models.
+   -   data/: Directory for your training dataset (if you wish to train your own model).
+   -   test/: Directory for images used for testing mask detection.
 ###Training Your Own Model
-   If you want to train your own mask detection model on a custom dataset, follow these steps:
+  - If you want to train your own mask detection model on a custom dataset, follow these steps:
    
-   Prepare your labeled dataset with two classes: "with_mask" and "without_mask."
+  - Prepare your labeled dataset with two classes: "with_mask" and "without_mask."
    
-   Organize your dataset in the data/ directory with subdirectories for each class.
+  - Organize your dataset in the data/ directory with subdirectories for each class.
    
-   Use the provided training script (train_mask_detector.py) to train your model. Customize the script as needed, including model architecture, hyperparameters, and data preprocessing.
+  - Use the provided training script (train_mask_detector.py) to train your model. Customize the script as needed, including model architecture, hyperparameters, and data preprocessing.
    
-   Save your trained model in the models/ directory.
+  - Save your trained model in the models/ directory.
    
-   Modify the mask_detection.py script to load your trained model for real-time detection.
+  - Modify the mask_detection.py script to load your trained model for real-time detection.
    
    
       
