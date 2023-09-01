@@ -39,12 +39,12 @@ pip install -r requirements.txt
 ### Usage
 To run the real-time mask detection program with your webcam, execute the following command:
 ```shell
-python mask_detection.py
+   python mask_detection.py
 
 This command will open a window displaying your webcam feed with real-time mask detection results. By default, the pre-trained CNN model provided in the project will be used.
 
 ### Project Structure
-The project directory is organized as follows:
+The project directory is organised as follows:
 
  - mask_detection.py: The main script for real-time mask detection.
  - requirements.txt: A list of required Python packages.
