@@ -27,7 +27,7 @@ Before you begin, make sure you have the following installed:
 
 1. Clone the repository to your local machine:
 
-   ``'shell
+   ```shell
    git clone https://github.com/your-username/mask-detection.git
    cd mask-detection
 
