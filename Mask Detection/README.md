@@ -53,6 +53,7 @@ This command will open a window displaying your webcam feed with real-time mask 
    -   models/: Directory for saving or loading CNN models.
    -   data/: Directory for your training dataset (if you wish to train your own model).
    -   test/: Directory for images used for testing mask detection.
+
 ###Training Your Own Model
   - If you want to train your own mask detection model on a custom dataset, follow these steps:
    
