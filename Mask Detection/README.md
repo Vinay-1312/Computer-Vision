@@ -38,7 +38,7 @@ Before you begin, make sure you have the following installed:
 
 
 
-###To run the real-time mask detection programme with your webcam, execute the following command:
+### To run the real-time mask detection programme with your webcam, execute the following command:
    ```shell
       python mask_detection.py
 
