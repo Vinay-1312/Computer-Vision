@@ -34,7 +34,7 @@ Before you begin, make sure you have the following installed:
 ### Install the required packages
    ```shell
       pip install -r requirements.txt
-
+   ```
 
 
 
