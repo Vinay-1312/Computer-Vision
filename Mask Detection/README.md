@@ -41,7 +41,7 @@ Before you begin, make sure you have the following installed:
 ### To run the real-time mask detection programme with your webcam, execute the following command:
    ```shell
       python mask_detection.py
-
+   ```
 This command will open a window displaying your webcam feed with real-time mask detection results. By default, the pre-trained CNN model provided in the project will be used.
 
 ### Project Structure
